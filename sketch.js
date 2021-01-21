@@ -1,3 +1,22 @@
+
+var arr1 = [1,23,59,235];
+console.log(arr1);
+
+var xuv = [23,"Avraj", "Parwan",[1,46],["an","hih"], true];
+console.log(xuv);
+
+console.log(xuv[3][1]);
+
+xuv.push(56);
+console.log(xuv);
+
+xuv.pop();
+console.log(xuv);
+
+
+
+
+
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
